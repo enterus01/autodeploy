@@ -9,7 +9,7 @@ metadata:
   name: app-demo-deploy
   namespace: app-demo
 spec:
-  replicas: 5
+  replicas: 10
   selector:
     matchLabels: 
       app: app-demo
@@ -51,7 +51,7 @@ metadata:
     kubernetes.io/ingress.class: "nginx"
 spec:
   rules:
-  - host: "danhdeploy123.com"
+  - host: "danhdeploy789.com"
     http:
       paths:
       - path: /

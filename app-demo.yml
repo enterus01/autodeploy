@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - name: app-demo
-        image: docker.io/http
+        image: nginx
         ports:
         - name: web
           containerPort: 80

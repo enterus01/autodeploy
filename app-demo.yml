@@ -20,10 +20,10 @@ spec:
     spec:
       containers:
       - name: app-demo
-        image: httpd
+        image: enterus01/api-python:1
         ports:
         - name: web
-          containerPort: 80
+          containerPort: 8080
 ---
 apiVersion: v1
 kind: Service
@@ -37,7 +37,7 @@ spec:
   ports:
   - name:  http
     port:  80
-    targetPort: 80
+    targetPort: 8080
     protocol: TCP
   selector:
     app: app-demo

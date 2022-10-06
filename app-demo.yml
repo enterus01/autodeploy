@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - name: app-demo
-        image: enterus01/api-python
+        image: enterus01/api-python:1
         ports:
         - name: web
           containerPort: 8080

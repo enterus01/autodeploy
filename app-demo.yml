@@ -9,7 +9,7 @@ metadata:
   name: app-demo-deploy
   namespace: app-demo
 spec:
-  replicas: 6
+  replicas: 3
   selector:
     matchLabels: 
       app: app-demo
@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - name: app-demo
-        image: nginx
+        image: httpd
         resources:
           limits:
             memory: "128Mi"

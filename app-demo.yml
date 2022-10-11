@@ -9,7 +9,7 @@ metadata:
   name: app-demo-deploy
   namespace: app-demo
 spec:
-  replicas: 10
+  replicas: 5
   selector:
     matchLabels: 
       app: app-demo
@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - name: app-demo
-        image: enterus01/api-python:2
+        image: enterus01/api-python:3
         resources:
           limits:
             memory: "128Mi"

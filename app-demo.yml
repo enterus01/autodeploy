@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - name: app-demo
-        image: httpd
+        image: enterus01/api-python:bitnami
         resources:
           limits:
             memory: "128Mi"

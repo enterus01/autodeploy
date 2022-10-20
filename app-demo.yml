@@ -56,7 +56,7 @@ metadata:
     kubernetes.io/ingress.class: "nginx"
 spec:
   rules:
-  - host: "danhdeploy789.com"
+  - host: "360-prime.co"
     http:
       paths:
       - path: /

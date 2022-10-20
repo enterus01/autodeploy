@@ -34,7 +34,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: app-demo-svc
-  namespace: public-app
+  namespace: default
   labels:
     app: public-app
 spec:
